@@ -1,0 +1,32 @@
+<html>
+			<head>
+			<title>Tickect for Movie</title>
+			</head>
+			<body>
+			<h2><b><i>your ticket</i><b></h2>
+			<h3><b><i>Theatre:$n1</i><b></h3>
+			<h3><b><i>Film: $n3</i><b></h3>
+			<h3><b><i>Show Date: $dt</i><b></h3>
+			<table>
+			<tr>
+			<th>CUSTOMER NAME:</th>
+			<th>SHOW NAME&nbsp;</th>
+			<th>SEAT NO&nbsp;</th>
+			<th>&nbsp;&nbsp; PRICE</th>
+			</tr>
+			<tr>
+			<td>$mid</td>
+			<td>$sh</td>
+			<td>$sid</td>
+			<td>Rs: 120</td>
+			<td>$img</td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+			<td><img src= $img style='height:297px;'/></td>
+			<td>*Note::Payment wont refund</td>
+			</tr>
+			</table>
+			</body>
+			</html>
